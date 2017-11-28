@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <button id="btn">Submit</button>
+
+    <p>Quando usado Arrow function em um escopo global, ela ira se referir ao windown. Sendo assim neste caso é melhor não utilizar Arrow function.</p>
+  </body>
+  <script>
+    const btn = document.getElementById('btn');
+    btn.addEventListener('click', () => {
+      console.log(this);
+    })
+  </script>
+</html>
