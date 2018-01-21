@@ -1,0 +1,12 @@
+.teste{
+  background: #fff;
+  align-content: center;
+  position: relative;
+  font-family: Arial, Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  color: rgb(#ffffff, green, blue, 0.8);
+  width: 110%;
+  height: 90px;
+  margin: 0 auto;
+  float: left;
+}

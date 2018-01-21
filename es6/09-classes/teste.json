@@ -1,0 +1,18 @@
+{
+  "env": {
+    "name": "Mario",
+    "city": "Floripa",
+    "age": 12
+  },
+    "enve": {
+      "ES6": true,
+      "mocha": true,
+      "node": false
+    },
+    "rules": {
+      "indent": [
+        "error",
+        2
+      ]
+    }
+}
