@@ -1,6 +1,8 @@
+
+
 class Animal {
   constructor(name) {
-    this.name = name
+    this.name = name;
   }
 
   hello() {
@@ -26,17 +28,20 @@ function deg() {
 const elephant = new Animal("Dumbo");
 const dog = new Dog("Jake", "auauu");
 
-elephant == dog
-
 const arr = [{
-  "name": "mario",
-  "age": 33,
-  "date": "12/30/2017",
-  "nov": true
+  name: "mario",
+  age: 33,
+  date: "12/30/2017",
+  cat: true,
+  dog: false
 }]
 
 function name() {
   return 2 + 2;
 }
 
-document.getElementById()
+const gato = document.getElementById('dog');
+let dogs = document.addEventListener('click')
+
+
+
