@@ -1,3 +1,8 @@
+/**
+ * O objeto Proxy é usado para definir comportamentos customizados para operações fundamentais(por exemplo,
+ * pesquisa de propriedade, atribuição, enumeração, invocação de função, verificar caracters e etc.).
+ */
+
 let obj = {
   name: 'mario',
   age: 30
