@@ -1,6 +1,13 @@
 import * as R from "ramda";
 import sum from "./utils";
-import { sub, multiplicacao, div } from "./utils";
+import {
+  sub,
+  multiplicacao,
+  div
+} from "./utils";
+
+import react from 'react';
+import reactDOM from 'react-dom';
 
 const arr1 = [1, 3, 1, 3, 1, 3, 1, 3];
 const arr2 = [1, 2, 9, 3, 9, 3, 9, 3];
