@@ -1,13 +1,19 @@
-describe("main", function() {
-  describe("Method A", function() {
-    context("Case 1", function() {
-      it("should happen ");
+describe("Main", function () {
+  describe("Method A", function () {
+    context("Case A", function () {
+      it("should happen test-1", function () {});
+    });
+
+    context("Case B", function () {
+      it("should happen test-2", function () {
+
+      });
+
+      it("should happen test-3", function () {});
     });
   });
 
-  context("Case B", function() {
-    it("should happen");
-  });
+  describe("Method B", function () {
 
-  describe("Method B", function() {});
+  });
 });
